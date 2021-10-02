@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+
+body {
+    font-family: 'Koh Santepheap', cursive;
+    background-color: var(--primarycolor);
+}
+
+:root{
+    --primarycolor: #6D28D9;
+    --white: white;
+}
+
+div{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding:1rem;
+    color: var(--white);
+}
+
+h1 {
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    margin-left:auto;
+     font-size: 1rem;
+     padding: 1rem;
+     text-align: center;
+}
+
+ #label-dob{
+     font-size:1.5rem ;
+ }
+
+ #dob{
+     margin: 2rem;
+     border-radius: 1rem;
+     border-style: solid;
+     padding: 0.6rem;
+ }
+ #label-lucky-number{
+     padding: 1.5rem;
+     font-size:1.5rem ;
+ }
+
+ #lucky-number{
+     width: 10%;
+     text-align: center;
+     border-radius: 1rem;
+     border-style: solid;
+     outline: none;
+     padding: 0.5rem;
+ }
+ #check-number{
+     font-family: 'Lobster', cursive;
+     margin: auto;
+     border-radius: 1rem;
+     border-style: solid;
+     font-size: 1rem;
+     cursor:pointer;
+     padding: 0.5rem;
+ }
+ #output-text{
+    font-family: 'Lobster', cursive;
+    background-color: var(--white);
+    text-align: center;
+     width: 30rem;
+     height: 3rem;
+     font-size: 1.5rem;
+     padding: 1rem;
+     border-radius: 1rem;
+     border-style: solid;
+ }
+ 
+ .footer{
+     padding: 1rem;
+     text-align: center;
+     width: 100%;
+     font-size: 1.2rem;
+     margin-top: 2rem; 
+ }
+ 
+ .footer ul{
+     padding-inline-start: 0px;
+     list-style: none;  
+ }
+
+ .list-item-inline{
+    display: inline;
+    padding: 1rem;
+ }
+
+ .link {
+    font-family: 'Lobster', cursive;
+     font-size: 1rem;
+     text-decoration: none;
+    color: var(--white);
+ }
